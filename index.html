@@ -2,52 +2,55 @@
 <html>
   <header>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Copy</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
   </header>
   <bod>
-    <head>
-      <div>
-        <ul>
-          <li>Gmail</li>
-          <li>Images</li>
-          <li><img src="" alt="menu button"></li>
-          <li><img src="" alt="account logo"></li>
+    <head class="main_header">
+      <div class="container">
+        <ul class="main_header-main--nav main__nav">
+          <li class="main__nav-list main__nav-list--gmail"><a href="#">Gmail</a></li>
+          <li class="main__nav-list main__nav-list--images"><a href="#">Images</a></li>
+          <li class="main__nav-list main__nav-list--drop-menu"><a href="#"><img src="./images/apps_button.png" alt="menu button"></a></li>
+          <li class="main__nav-list main__nav-list--account"><a href="#"><img src="https://via.placeholder.com/32x32" alt="account logo"></a></li>
         </ul>
       </div>
     </head>
-    <main>
-      <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    <main class="main">
+      <div class="container">
+        <img class="main_google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google logo">
-        <div>
+        <div class="main-serach">
           <label for="search_input"></label>
           <input type="text" id="search_input">
         </div>
-        <div>
+        <div class="main-google--btns">
           <button>Google Search</button>
           <button>I'm Feeling Lucky</button>
         </div>
-        <div>
+        <div class="main-lcl--lng">
           <span>Google offered in: <a href="#">polski</a></span>
         </div>
       </div>
     </main>
-    <footer>
-      <div>
-        <span>Poland</span>
-      </div>
-      <div>
-        <ul>
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>About</li>
-        </ul>
-        <ul>
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
-        </ul>
+    <footer class="main_footer">
+      <div class="container">
+        <div class="main_footer-location">
+          <span>Poland</span>
+        </div>
+          <div class="main_footer-b2b">
+            <ul class="main_footer-b2b--nav b2b__nav">
+              <li class="b2b__nav-list b2b__nav-list--advertising">Advertising</li>
+              <li class="b2b__nav-list b2b__nav-list--business">Business</li>
+              <li class="b2b__nav-list b2b__nav-list--about">About</li>
+            </ul>
+            <ul class="main_footer-information--nav information__nav">
+              <li class="information__nav-list information__nav-list--privacy">Privacy</li>
+              <li class="information__nav-list information__nav-list--terms">Terms</li>
+              <li class="information__nav-list information__nav-list--setings">Settings</li>
+            </ul>
+          </div>
       </div>
     </footer>
   </bod>
